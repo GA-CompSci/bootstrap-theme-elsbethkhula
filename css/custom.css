@@ -1,6 +1,11 @@
 /***** 
 COLOR CHEAT SHEET 
-
+https://coolors.co/palette/335c67-fff3b0-e09f3e-9e2a2b-540b0e
+335c67-slate gray
+fff3b0-vanilla
+e09f3e- orange yellow
+9e2a2b-auburn
+540b0e-chocolate
 
 *****/
 
@@ -9,9 +14,74 @@ COLOR CHEAT SHEET
 /******* FONTS ******/
 /********************/
 body, p {
-
+    
+    font-family: "Nunito", sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
+   
+    font-family: "Bungee Tint", sans-serif;
+}
 
+/********************/
+/******* HERO  ******/
+/********************/
+
+header.masthead {
+    background: url("../img/bg.jpg");
+    background-position: center;
+    background-size: cover;
+}
+header.masthead h1 {
+    color: #fff3b0;
+    text-shadow: 2px 2px 5px white;
+}
+header.masthead p{
+    color:#fff3b0;
+    text-shadow: 2px 2px 5px black;
+}
+/********************/
+/******* COLORS  ******/
+/********************/
+.btn-primary {
+    background:#9e2a2b; 
+}
+.btn-primary:hover {
+    background:#cc2b2d; 
+    border: 2px solid #9e2a2b;
+    font-weight: 800;
+   
+}
+hr.divider {
+    background-color: #f4d644;
+}
+.bg-primary {
+    background-color:  #e09f3e !important;
+}
+.text-primary{
+    color: #751c6b !important;
+}
+
+/********************/
+/******* NAV  ******/
+/********************/
+
+#mainNav.navbar-shrink {
+   
+    background-color:#a92915;
+}
+
+#mainNav .navbar-brand {
+    color: #de371d;
+}
+#mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover,
+#mainNav .navbar-nav .nav-item .nav-link.active,
+#mainNav.navbar-shrink .navbar-brand:hover {
+	color: #fa7f27 !important;
+}
+/********************/
+/******* TOP 6 ******/
+/********************/
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption, #portfolio .container-sm .portfolio-box .portfolio-box-caption, #portfolio .container-md .portfolio-box .portfolio-box-caption, #portfolio .container-lg .portfolio-box .portfolio-box-caption, #portfolio .container-xl .portfolio-box .portfolio-box-caption, #portfolio .container-xxl .portfolio-box .portfolio-box-caption {
+    background: #fff3b0a0;
 }
