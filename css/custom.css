@@ -61,7 +61,12 @@ hr.divider {
 .text-primary{
     color: #751c6b !important;
 }
-
+.carousel-caption {
+  color: #fff;
+  text-shadow: 2px 2px 5px black;
+}.bg-dark {
+    background-color: #e09f3e!important;
+}
 /********************/
 /******* NAV  ******/
 /********************/
@@ -78,6 +83,10 @@ hr.divider {
 #mainNav .navbar-nav .nav-item .nav-link.active,
 #mainNav.navbar-shrink .navbar-brand:hover {
 	color: #fa7f27 !important;
+}
+#mainNav.navbar-shrink .navbar-nav .nav-item .nav-link,
+#mainNav.navbar-shrink .navbar-brand {
+    color: #ffffff;
 }
 /********************/
 /******* TOP 6 ******/
